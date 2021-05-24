@@ -1,3 +1,3 @@
 # Hugh's blog
 
-> To be an interesting place.
+> Do not go gentle into the good night.
