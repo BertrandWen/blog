@@ -1,3 +1,3 @@
-# Headline
+# Hugh's blog
 
-> An awesome project.
+> To be an interesting place.

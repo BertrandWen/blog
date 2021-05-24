@@ -1,0 +1,4 @@
+- [一周见闻](weekly/)
+- [技术笔记](technology/)
+- [阅读笔记](reading/)
+- [Misc.](miscellaneous/)
