@@ -15,6 +15,28 @@
 
 ## 安装步骤
 
+### 1.安装准备
+
+#### 1.1 物理组装
+
+在 Rocks 集群中，节点被分为前端节点（也叫管理节点，Frontend Node）和计算节点（Compute Node）。
+二者通过交换机连接，其中前端节点必须有两张网卡，一张网卡（默认为 eth1）连接公网，另一个网卡（默认为 eth0）连接交换机，节点之间的拓扑如图所示：
+
+![Rocks Topology](../img/rocks-topo.png)
+
+#### 1.2 制作启动盘
+
+在 Rocks 官网的[下载区](http://www.rocksclusters.org/downloads/2017-12-01-download-rocks-7-0-manzanita.html)可以下载到全部镜像（这些也被成为 roll），在此我们选择用 [kernal 镜像](http://central-7-0-x86-64.rocksclusters.org/isos/kernel-7.0-0.x86_64.disk1.iso)制作启动盘，可以借助 [rufus](https://rufus.ie/en_US/) 一类工具烧录到 U 盘中，制作成管理节点的系统盘。
+
+#### 1.3 搭建局域网下的 roll server
+
+Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系统组件/包) 下载到可被前端节点访问到的地方，在安装过程中管理节点会自动去请求这些资源。
+此处我们选择将官网的[下载区](http://www.rocksclusters.org/downloads/2017-12-01-download-rocks-7-0-manzanita.html)下全部的 16 个镜像下载下来后，先进行 md5 检查确保文件完整，随后进行解压，再搭建一个 http 服务器对外提供访问服务（据说更推荐 Nginx），下图为搭建好的 roll server。
+
+![roll server](../img/roll-server.png)
+
+### 2.前端节点安装
+
 
 
 ## 参考资料
@@ -26,8 +48,11 @@
 
 > Rocks 7:
 > - [Rocks Base Users Guide](http://central-7-0-x86-64.rocksclusters.org/roll-documentation/base/7.0/index.html)
-> - [Rocks Cluster 7.0 Manzanita (CentOS 7.4)前端节点安装——神坑及处理全纪录](http://bbs.keinsci.com/thread-19823-1-1.html)
+> - [Rocks 7.0 Manzanita (CentOS 7.4)前端节点安装笔记（附常见错误解决说明）](https://www.jianshu.com/p/9e03ff1a6d30)
 > - [rocks7 高性能计算机群（HPC）安装笔记](https://zhuanlan.zhihu.com/p/166168966)
+> - [rocks7 集群安装笔记](https://www.omicsclass.com/article/1399)
+> - [Rocks Cluster 7.0 Manzanita (CentOS 7.4)前端节点安装——神坑及处理全纪录](http://bbs.keinsci.com/thread-19823-1-1.html)
+> - [The npaci-rocks-discussion Archives](https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/)
 
 > Rocks ?:
 > - [基于Rocks的高性能集群平台搭建与应用](http://manu46.magtech.com.cn/ces/CN/article/downloadArticleFile.do?attachType=PDF&id=8940)
