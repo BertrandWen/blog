@@ -37,6 +37,64 @@ Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系
 
 ### 2.前端节点安装
 
+1. 把 U 盘插到前端节点上，开机，设置 Boot 启动项中首先从 U 盘启动，退出重启，启动后得到如下画面：
+
+![rocks boot](../img/rocks-boot.webp)
+
+2. 进入语言选择界面，选择 English > English(United States) 并继续：
+
+![rocks language](../img/rocks-language.webp)
+
+3. 配置网络，选择 NETWORK & HOSTNAME
+
+![rocks network](../img/rocks-network.webp)
+
+切换到 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway，但是由于我不清楚信息中心机房的掩码和网关，这里会选择使用 DCHP 去自动分配（因此与图中略有不符），计划等后续再改动 ip。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
+
+![rocks network setting](../img/rocks-network-setting.webp)
+
+4. 配置内网 ip：
+
+![rocks private network](../img/rocks-private-network.webp)
+   
+![rocks private network setting](../img/rocks-private-network-setting.webp)
+
+5. 进行 rolls 的安装，选择所有的 roll 都进行安装：
+
+![rocks rolls](../img/rocks-rolls.webp)
+
+![rocks rolls setting](../img/rocks-rolls-setting.webp)
+
+6. 配置集群（无特殊需求不作改动）：
+
+![rocks cluster](../img/rocks-cluster.webp)
+
+![rocks cluster setting](../img/rocks-cluster-setting.webp)
+
+7. 配置分区，可选择自动分区也可自动分区，手动分区的话方案可以为：
+
+```
+/     100GIB
+/tmp     50GiB
+/boot    1024MiB
+/boot/efi  512MiB
+swap    50GiB
+/export    全部其他空间
+```
+
+![rocks partitionning](../img/rocks-partitioning.png)
+
+8. 开始安装：
+
+![rocks installation](../img/rocks-installation.webp)
+
+9. 在安装过程中可设置 root 密码：
+
+![rocks root](../img/rocks-root.png)
+
+10. 安装完成，如果一切顺利，最后的安装界面应该如下图所示，此时可以拔出 U 盘，重启前端节点：
+
+![rocks finish](../img/rocks-finish.png)
 
 
 ## 参考资料
