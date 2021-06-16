@@ -49,9 +49,17 @@ Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系
 
 ![rocks network](../img/rocks-network.webp)
 
-切换到 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway，但是由于我不清楚信息中心机房的掩码和网关，这里会选择使用 DCHP 去自动分配（因此与图中略有不符），计划等后续再改动 ip。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
+切换到 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
 
 ![rocks network setting](../img/rocks-network-setting.webp)
+
+我们服务器的网络设置为：
+```
+Address 172.18.6.61
+Netmask 255.255.255.0
+Gateway 172.18.6.254
+DNS 172.18.1.92
+```
 
 4. 配置内网 ip：
 
@@ -95,6 +103,10 @@ swap    50GiB
 10. 安装完成，如果一切顺利，最后的安装界面应该如下图所示，此时可以拔出 U 盘，重启前端节点：
 
 ![rocks finish](../img/rocks-finish.png)
+
+## bug 记录
+
+1. 在安装启动后开
 
 
 ## 参考资料
