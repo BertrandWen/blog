@@ -35,6 +35,12 @@ Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系
 
 ![roll server](../img/roll-server.png)
 
+#### 1.4 Raid 阵列卡配置（可选）
+
+我们的服务器上有两张阵列卡，不过所有的硬盘都接在其中一张 LSI 芯片的阵列卡上，在更换完硬盘后需要进行 Raid 的配置。
+此处处于我的知识盲区，幸亏得到系里运维工程师相助，得以顺利解决。
+如果后续需要再次配置阵列卡，可参考这篇[博文](https://www.yeboyzq.com/yingjianweihu/942.html)。
+
 ### 2.前端节点安装
 
 1. 把 U 盘插到前端节点上，开机，设置 Boot 启动项中首先从 U 盘启动，退出重启，启动后得到如下画面：
@@ -104,9 +110,37 @@ swap    50GiB
 
 ![rocks finish](../img/rocks-finish.png)
 
+
+### 3. 计算节点安装
+
+1. 通过 root 身份登录前端节点。
+
+2. 打开 terminal，在 Shell 中输入命令：
+
+```bash
+# insert-ethers
+```
+
+会出现如下界面：
+
+![insert-ethers](../img/insert-ethers-1.png)
+
+3. 选择 Compute，接下来可以看到以下界面，代表正在等待安装计算节点：
+
+![insert ethers 2](../img/insert-ethers-2.png)
+
+4. 启动计算节点，并设置它的 booting 顺序为 PXE 优先，即网卡启动。
+
+5. 顺利的话，前端节点这边的界面会收到 DHCP 请求并显示：
+
+![insert ethers 3](../img/insert-ethers-3.png)
+
+过一会可以看到计算节点被发现，「（）」代表节点尚未请求好 kickstart 文件：
+
+![insert ethers 4](../img/insert-ethers-4.png)
+
 ## bug 记录
 
-1. 在安装启动后开
 
 
 ## 参考资料
