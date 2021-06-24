@@ -1,4 +1,5 @@
-- [一周见闻](weekly/)
+- [科研笔记](research/)
 - [技术笔记](technology/)
 - [阅读笔记](reading/)
+- [一周见闻](weekly/)
 - [Misc.](miscellaneous/)
