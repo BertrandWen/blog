@@ -20,7 +20,10 @@
   - CCS, 2017
 - [Chameleon: A Hybrid Secure Computation Framework for Machine Learning Applications](https://dl.acm.org/doi/pdf/10.1145/3196494.3196522)
   - ASIACCS, 2018
+- GAZELLE: A Low Latency Framework for Secure Neural Network Inference
+  - USENIX, 2018
 - [XONN: XNOR-based Oblivious Deep Neural Network Inference](https://arxiv.org/pdf/1902.07342.pdf)
   - USENIX, 2019
 - [On the Application of Binary Neural Networks in Oblivious Inference](https://openaccess.thecvf.com/content/CVPR2021W/BiVision/html/Samragh_On_the_Application_of_Binary_Neural_Networks_in_Oblivious_Inference_CVPRW_2021_paper.html)
   - CVPR, 2021
+
