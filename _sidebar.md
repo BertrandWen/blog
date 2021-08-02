@@ -1,6 +1,7 @@
 - [科研笔记](research/)
 - [技术笔记](technology/)
 - [阅读笔记](reading/)
+- [美食笔记](food/)
 - [一周见闻](weekly/)
 - [水深两浔](marktwain/)
 - [Misc.](miscellaneous/)
