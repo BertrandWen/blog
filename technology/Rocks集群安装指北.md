@@ -113,6 +113,19 @@ swap    50GiB
 
 ### 3. 计算节点安装
 
+0. 在开始安装之前，按照[如下方法](http://central-7-0-x86-64.rocksclusters.org/roll-documentation/base/7.0/faq-installation.html#COMPUTE-KICKSTART-FILE)先检查一下前端节点的以下服务：dhcpd, httpd, mysqld, autofs。
+在准备完成后执行命令
+```
+rocks list host profile compute-0-0
+rocks list host profile compute-0-0 > /dev/null
+```
+进行检查，如有错误，参考[以下方法](https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/2015-April/067307.html)重新制造 distro
+```
+cd /export/rocks/install
+rocks create distro
+```
+过程中可参考 google group 的[这一帖子](https://groups.google.com/g/rocks-clusters/c/Vx8YqVaRpXI/m/GHHNlrl0ajkJ)。
+
 1. 通过 root 身份登录前端节点。
 
 2. 打开 terminal，在 Shell 中输入命令：
@@ -153,6 +166,7 @@ swap    50GiB
 > Rocks 7:
 > - [Rocks Base Users Guide](http://central-7-0-x86-64.rocksclusters.org/roll-documentation/base/7.0/index.html)
 > - [Rocks 7.0 Manzanita (CentOS 7.4)前端节点安装笔记（附常见错误解决说明）](https://www.jianshu.com/p/9e03ff1a6d30)
+> - [Rocks 7.0 Appendix A. Frequently Asked Questions](http://central-7-0-x86-64.rocksclusters.org/roll-documentation/base/7.0/faq-installation.html#COMPUTE-KICKSTART-FILE)
 > - [rocks7 高性能计算机群（HPC）安装笔记](https://zhuanlan.zhihu.com/p/166168966)
 > - [rocks7 集群安装笔记](https://www.omicsclass.com/article/1399)
 > - [Rocks Cluster 7.0 Manzanita (CentOS 7.4)前端节点安装——神坑及处理全纪录](http://bbs.keinsci.com/thread-19823-1-1.html)
