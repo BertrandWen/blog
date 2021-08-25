@@ -154,6 +154,7 @@ rocks create distro
 
 ## bug 记录
 
+（bug 过多，已放弃）......
 
 
 ## 参考资料
