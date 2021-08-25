@@ -119,12 +119,12 @@ swap    50GiB
 rocks list host profile compute-0-0
 rocks list host profile compute-0-0 > /dev/null
 ```
-进行检查，如有错误，参考[以下方法](https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/2015-April/067307.html)重新制造 distro
+<!-- 进行检查，如有错误，参考[以下方法](https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/2015-April/067307.html)重新制造 distro
 ```
 cd /export/rocks/install
 rocks create distro
 ```
-过程中可参考 google group 的[这一帖子](https://groups.google.com/g/rocks-clusters/c/Vx8YqVaRpXI/m/GHHNlrl0ajkJ)。
+过程中可参考 google group 的[这一帖子](https://groups.google.com/g/rocks-clusters/c/Vx8YqVaRpXI/m/GHHNlrl0ajkJ)。 -->
 
 1. 通过 root 身份登录前端节点。
 
