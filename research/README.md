@@ -2,6 +2,7 @@
 
 - [Oblivious Inference: 不经意推断](research/oblivious-inference.md)
 - 隐私计算小组组会记录
+  - [2021-09-22](research/meetings/2021-09-22-record.md)
   - [2021-09-06](research/meetings/2021-09-06-record.md)
   - [2021-08-23](research/meetings/2021-08-23-record.md)
   - [2021-08-09](research/meetings/2021-08-09-record.md)
