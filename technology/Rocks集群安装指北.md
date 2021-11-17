@@ -55,7 +55,7 @@ Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系
 
 ![rocks network](../img/rocks-network.webp)
 
-切换到 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
+选择 eth1 网卡，再选择 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
 
 ![rocks network setting](../img/rocks-network-setting.webp)
 
