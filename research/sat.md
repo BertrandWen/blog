@@ -26,7 +26,7 @@
 
 - [Learning a SAT Solver from Single-Bit Supervision](https://openreview.net/pdf?id=HJMC_iA5tm)
     - ICLR, 2019 [[code](https://github.com/dselsam/neurosat)]
-- [Learning To Solve Circuit-SAT: An Unsupervised Differentiable Approach](https://openreview.net/pdf?id=BJxgz2R9t7)\
+- [Learning To Solve Circuit-SAT: An Unsupervised Differentiable Approach](https://openreview.net/pdf?id=BJxgz2R9t7)
     - ICLR, 2019
 - [Learning Local Search Heuristics for Boolean Satisfiability](https://proceedings.neurips.cc/paper/2019/file/12e59a33dea1bf0630f46edfe13d6ea2-Paper.pdf)
     - Neurips, 2019
