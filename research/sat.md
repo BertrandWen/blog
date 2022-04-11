@@ -22,7 +22,9 @@
 [该地址](https://maplesat.github.io/publications) 罗列了他们相关工作的 publication 和 presentation，有很好的参考价值。同时 Vijay Ganesh 有位 2018 年毕业的 PhD Jia Hui Liang，
 其博士论文 [Machine Learning for SAT Solvers](https://docs.google.com/a/gsd.uwaterloo.ca/viewer?a=v&pid=sites&srcid=Z3NkLnV3YXRlcmxvby5jYXxtYXBsZXNhdHxneDoyZThmNWZjYWQxNzM4MTdj) 也是该领域很好的总结工作。
 
-在其他学校来说没有发现集中在做 ML for SAT 的组，零零散散找到几篇较有参考价值的文章，按照时间顺序排序为：
+另外，国内上交严骏驰老师做了基于机器学习的组合优化问题的工作，其团队整理了一份 Machine Learning for Combinatorial Optimization 的资源，其中 [SAT 部分](https://github.com/Thinklab-SJTU/awesome-ml4co#boolean-satisfiability) 的也很值得 follow。
+
+此外没有发现集中在做 ML for SAT 的组，零零散散找到几篇较有参考价值的文章，按照时间顺序排序为：
 
 - [Learning a SAT Solver from Single-Bit Supervision](https://openreview.net/pdf?id=HJMC_iA5tm)
     - ICLR, 2019 [[code](https://github.com/dselsam/neurosat)]
