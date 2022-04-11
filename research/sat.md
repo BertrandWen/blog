@@ -35,4 +35,4 @@
 - [Transformer-based Machine Learning for Fast SAT Solvers and Logic Synthesis](https://arxiv.org/pdf/2107.07116.pdf)
     - ArXiv, 2021
 - [Machine Learning Methods in Solving the Boolean Satisfiability Problem](https://arxiv.org/pdf/2203.04755.pdf)
-    - Arxiv, 2022
+    - ArXiv, 2022
