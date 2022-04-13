@@ -31,7 +31,7 @@
 
 另外，国内上交严骏驰老师做了基于机器学习的组合优化问题的工作，其团队整理了一份 Machine Learning for Combinatorial Optimization 的资源，其中 [SAT 部分](https://github.com/Thinklab-SJTU/awesome-ml4co#boolean-satisfiability) 的也很值得 follow。
 
-此外没有发现集中在做 ML for SAT 的组，零零散散找到几篇较有参考价值的文章，按照时间顺序排序为：
+在此列举几篇较有参考价值的文章，按照时间顺序排序为：
 
 - [Learning a SAT Solver from Single-Bit Supervision](https://openreview.net/pdf?id=HJMC_iA5tm)
     - ICLR, 2019 [[code](https://github.com/dselsam/neurosat)]
