@@ -22,8 +22,12 @@
 [该地址](https://maplesat.github.io/publications) 罗列了他们相关工作的 publication 和 presentation，有很好的参考价值。同时 Vijay Ganesh 有位 2018 年毕业的 PhD Jia Hui Liang，
 其博士论文 [Machine Learning for SAT Solvers](https://docs.google.com/a/gsd.uwaterloo.ca/viewer?a=v&pid=sites&srcid=Z3NkLnV3YXRlcmxvby5jYXxtYXBsZXNhdHxneDoyZThmNWZjYWQxNzM4MTdj) 也是该领域很好的总结工作。
 
-国内中科院软件所的[蔡少伟老师](https://people.ucas.ac.cn/~caisw)在传统的 SAT 求解路线（CDCL + Local search）有相当多的工作。
-
+另外也列举一些做 SAT 的团队（主要是传统的方法）：
+- 德国 University of Freiburg 的 [Armin Biere](http://fmv.jku.at/biere/)，如今的 SAT 协会主席，也是 Handbook of Satisfiability 的主要作者之一
+- 法国 University of Picardie Jules Verne 的[李初民老师](https://home.mis.u-picardie.fr/~cli/)
+- 澳洲 Monash University 的 [Alexey Ignatiev](https://alexeyignatiev.github.io/)，其本人也是 [pysat](https://github.com/pysathq/pysat) 的主要开发者之一（这个包的模块和接口设计都好得让我惊叹）
+- 加拿大 University of Alberta 的 [Martin Müller](https://webdocs.cs.ualberta.ca/~mmueller/) and [Jia-Huai You](https://webdocs.cs.ualberta.ca/~you/)
+- 国内中科院软件所的[蔡少伟老师](https://people.ucas.ac.cn/~caisw)也在经典的 SAT 求解路线（CDCL + Local search）有相当多的工作
 
 另外，国内上交严骏驰老师做了基于机器学习的组合优化问题的工作，其团队整理了一份 Machine Learning for Combinatorial Optimization 的资源，其中 [SAT 部分](https://github.com/Thinklab-SJTU/awesome-ml4co#boolean-satisfiability) 的也很值得 follow。
 
@@ -41,3 +45,13 @@
     - ArXiv, 2021
 - [Machine Learning Methods in Solving the Boolean Satisfiability Problem](https://arxiv.org/pdf/2203.04755.pdf)
     - ArXiv, 2022
+
+## 有用的资源
+
+- [Conflict Driven Clause Learning 的可视化介绍（强烈安利！）](https://cse442-17f.github.io/Conflict-Driven-Clause-Learning/)
+- [Understanding SAT by Implementing a Simple SAT Solver in Python](https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
+
+## SAT 周边
+
+- [中科院软件所蔡少伟专访](https://mp.weixin.qq.com/s/XOps4NT84tLOJaInW8pD8A)
+- [解决中国“卡脖子”问题：研究求解器的少数者](https://www.leiphone.com/category/academic/rArjum9yhqL4G9Rc.html)
