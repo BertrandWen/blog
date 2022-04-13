@@ -56,3 +56,4 @@
 
 - [中科院软件所蔡少伟专访](https://mp.weixin.qq.com/s/XOps4NT84tLOJaInW8pD8A)
 - [解决中国“卡脖子”问题：研究求解器的少数者](https://www.leiphone.com/category/academic/rArjum9yhqL4G9Rc.html)
+- [追求最优，「约束求解」这一小拨人的问题与实践](https://hub.baai.ac.cn/view/9982)
