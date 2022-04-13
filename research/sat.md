@@ -49,6 +49,7 @@
 ## 有用的资源
 
 - [Conflict Driven Clause Learning 的可视化介绍（强烈安利！）](https://cse442-17f.github.io/Conflict-Driven-Clause-Learning/)
+- [Handbook of Satisfiability - Chapter 4: Conflict-Driven Clause Learning SAT Solvers](https://www.cs.princeton.edu/~zkincaid/courses/fall18/readings/SATHandbook-CDCL.pdf)
 - [Understanding SAT by Implementing a Simple SAT Solver in Python](https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
 
 ## SAT 周边
