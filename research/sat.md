@@ -22,6 +22,9 @@
 [该地址](https://maplesat.github.io/publications) 罗列了他们相关工作的 publication 和 presentation，有很好的参考价值。同时 Vijay Ganesh 有位 2018 年毕业的 PhD Jia Hui Liang，
 其博士论文 [Machine Learning for SAT Solvers](https://docs.google.com/a/gsd.uwaterloo.ca/viewer?a=v&pid=sites&srcid=Z3NkLnV3YXRlcmxvby5jYXxtYXBsZXNhdHxneDoyZThmNWZjYWQxNzM4MTdj) 也是该领域很好的总结工作。
 
+国内中科院软件所的[蔡少伟老师](https://people.ucas.ac.cn/~caisw)在传统的 SAT 求解路线（CDCL + Local search）有相当多的工作。
+
+
 另外，国内上交严骏驰老师做了基于机器学习的组合优化问题的工作，其团队整理了一份 Machine Learning for Combinatorial Optimization 的资源，其中 [SAT 部分](https://github.com/Thinklab-SJTU/awesome-ml4co#boolean-satisfiability) 的也很值得 follow。
 
 此外没有发现集中在做 ML for SAT 的组，零零散散找到几篇较有参考价值的文章，按照时间顺序排序为：
