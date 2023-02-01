@@ -1,4 +1,4 @@
-# Machine Learning for SAT Solvers: 基于机器学习的可满足性问题求解器
+# Boolean satisfiability problem (SAT)
 
 ## 基本背景
 
@@ -14,37 +14,43 @@
 
 实际中，借助推导或者真值表，一切布尔表达式都可被转化为 CNF 的形式，因此其求解也可以被转化为 SAT 的求解，因而 SAT 求解在许多如硬件设计和安全协议验证的问题中存在广泛的应用。
 
-## 相关工作
+## SAT 学习路径
 
-之前简单地调研了一些基于 Machine Learning 的 SAT 求解的相关工作，此处按时间前后来列举。
-就调研而言，在 Machine Learning for SAT 这个领域建树较多的一位老师是滑铁卢大学的 [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/)。
-其所设计的 SAT Solver 也是数学软件 [Maple](https://www.maplesoft.com/products/Maple/students/) 中的默认 [SAT Solver](https://maplesat.github.io/)。
-[该地址](https://maplesat.github.io/publications) 罗列了他们相关工作的 publication 和 presentation，有很好的参考价值。同时 Vijay Ganesh 有位 2018 年毕业的 PhD Jia Hui Liang，
-其博士论文 [Machine Learning for SAT Solvers](https://docs.google.com/a/gsd.uwaterloo.ca/viewer?a=v&pid=sites&srcid=Z3NkLnV3YXRlcmxvby5jYXxtYXBsZXNhdHxneDoyZThmNWZjYWQxNzM4MTdj) 也是该领域很好的总结工作。
+以下整理自蔡少伟老师的微博分享：
 
-另外也列举一些做 SAT 的团队（主要是传统的方法）：
+- 主要路线
+  -  Handbook of SAT Chapter 2: 
+     -  1 month 
+  -  Handbook of SAT Chapter 3-4: 
+     -  4 month 
+     -  实践：miniSAT 实现
+  -  Stochastic Local Search: Foundation and Applications 
+     -  3 month 
+     -  实践：SLS 算法实现
+-  参考资料
+   -  Handbook of SAT 第二版，主要是前四章
+   -  TAOCP Volume 4, Fascicle 6: Satisfiability: 主要关注encoding, backtracking, clause learning
+
+
+## 相关学者或工作
+
+一些做 SAT 的团队：
+- 滑铁卢大学的 [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/)
 - 德国 University of Freiburg 的 [Armin Biere](http://fmv.jku.at/biere/)，如今的 SAT 协会主席，也是 Handbook of Satisfiability 的主要作者之一
-- 法国 University of Picardie Jules Verne 的[李初民老师](https://home.mis.u-picardie.fr/~cli/)
+- 国内中科院软件所的[蔡少伟老师](https://people.ucas.ac.cn/~caisw)在经典的 SAT 求解路线（CDCL + Local search）有相当多的工作
 - 澳洲 Monash University 的 [Alexey Ignatiev](https://alexeyignatiev.github.io/)，其本人也是 [pysat](https://github.com/pysathq/pysat) 的主要开发者之一（这个包的模块和接口设计都好得让我惊叹）
 - 加拿大 University of Alberta 的 [Martin Müller](https://webdocs.cs.ualberta.ca/~mmueller/) and [Jia-Huai You](https://webdocs.cs.ualberta.ca/~you/)
-- 国内中科院软件所的[蔡少伟老师](https://people.ucas.ac.cn/~caisw)也在经典的 SAT 求解路线（CDCL + Local search）有相当多的工作
+- 法国 University of Picardie Jules Verne 的[李初民老师](https://home.mis.u-picardie.fr/~cli/)
 
 另外，国内上交严骏驰老师做了基于机器学习的组合优化问题的工作，其团队整理了一份 Machine Learning for Combinatorial Optimization 的资源，其中 [SAT 部分](https://github.com/Thinklab-SJTU/awesome-ml4co#boolean-satisfiability) 的也很值得 follow。
 
-在此列举几篇较有参考价值的文章，按照时间顺序排序为：
-
-- [Learning a SAT Solver from Single-Bit Supervision](https://openreview.net/pdf?id=HJMC_iA5tm)
-    - ICLR, 2019 [[code](https://github.com/dselsam/neurosat)]
-- [Learning To Solve Circuit-SAT: An Unsupervised Differentiable Approach](https://openreview.net/pdf?id=BJxgz2R9t7)
-    - ICLR, 2019
-- [Learning Local Search Heuristics for Boolean Satisfiability](https://proceedings.neurips.cc/paper/2019/file/12e59a33dea1bf0630f46edfe13d6ea2-Paper.pdf)
-    - Neurips, 2019
-- [SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver](https://arxiv.org/pdf/1905.12149.pdf)
-    - ICML, 2019 [[code](https://github.com/locuslab/SATNet)] [[slides](https://powei.tw/satnet_slide.pdf)]
-- [Transformer-based Machine Learning for Fast SAT Solvers and Logic Synthesis](https://arxiv.org/pdf/2107.07116.pdf)
-    - ArXiv, 2021
-- [Machine Learning Methods in Solving the Boolean Satisfiability Problem](https://arxiv.org/pdf/2203.04755.pdf)
-    - ArXiv, 2022
+部分 SAT + ML 论文：
+- [Learning a SAT Solver from Single-Bit Supervision](https://openreview.net/pdf?id=HJMC_iA5tm) ICLR, 2019 [[code](https://github.com/dselsam/neurosat)]
+- [Learning To Solve Circuit-SAT: An Unsupervised Differentiable Approach](https://openreview.net/pdf?id=BJxgz2R9t7) ICLR, 2019
+- [Learning Local Search Heuristics for Boolean Satisfiability](https://proceedings.neurips.cc/paper/2019/file/12e59a33dea1bf0630f46edfe13d6ea2-Paper.pdf) Neurips, 2019
+- [SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver](https://arxiv.org/pdf/1905.12149.pdf) ICML, 2019 [[code](https://github.com/locuslab/SATNet)] [[slides](https://powei.tw/satnet_slide.pdf)]
+- [Transformer-based Machine Learning for Fast SAT Solvers and Logic Synthesis](https://arxiv.org/pdf/2107.07116.pdf) ArXiv, 2021
+- [Machine Learning Methods in Solving the Boolean Satisfiability Problem](https://arxiv.org/pdf/2203.04755.pdf) ArXiv, 2022
 
 ## 有用的资源
 
