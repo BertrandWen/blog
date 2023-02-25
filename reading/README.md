@@ -1,4 +1,4 @@
-多读书，读好书。
+阅读能力是当代的护身符。
 
 - 技术
   - [C++ Primer](reading/notes/cpp-primer.md)
