@@ -1,4 +1,4 @@
-# My Brain is Open: The Mathematical Journeys of Paul Erdos
+## My Brain is Open: The Mathematical Journeys of Paul Erdos
 
 > 2022-05-20
 
