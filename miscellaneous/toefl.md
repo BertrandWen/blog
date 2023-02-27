@@ -53,3 +53,8 @@
 
 - 1 个 integrated task (150 - 225 words)
 - 1 个 independent task (300 - 400 words)
+
+
+### 托福改革
+
+- [托福改革变化](http://toefl.xdf.cn/201905/10920127.html)
