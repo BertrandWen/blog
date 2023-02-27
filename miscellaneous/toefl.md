@@ -16,6 +16,11 @@
   - 比较/对比
   - 原因/结果
   - 问题/解决方法
+- 文章场景
+  - 自然科学
+  - 生命科学
+  - 社会科学
+  - 文化艺术
 - 每篇文章 10 个问题，用时约 18 mins
   1. Factual Information questions 事实信息题（细节题）
   2. Negative Factual Information questions 否定事实信息题（排除题）：NOT/EXCEPT
@@ -36,6 +41,9 @@
   8. Insert Text question 句子插入题
   9. Prose Summary 文章总结题（6 选 3 or 7 选 5）
   10. Fill in a Table 表格填写题
+
+
+
 
 ### Listening (约 41 - 57 mins)
 
