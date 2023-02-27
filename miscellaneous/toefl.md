@@ -17,11 +17,9 @@
   - 原因/结果
   - 问题/解决方法
 - 每篇文章 10 个问题，用时约 18 mins
-  1. 细节题（事实信息题）
-  2. 词汇题
-    - 同义词替换
-    - 逻辑词
-  3. 推断题
+  1. Factual Information questions 事实信息题（细节题）
+  2. Negative Factual Information questions 否定事实信息题（排除题）：NOT/EXCEPT
+  3. Inference questions 推断题
     - 比较逻辑
       - 不同对象比较：unlike A, B
       - 不同时间比较：before A, B
@@ -29,12 +27,15 @@
       - 整体和部分
     - 因果逻辑
       - 说什么就是什么
-  4. 句子简化题
-  5. 句子插入题
-  6. 指代题
-  7. 修辞目的题
-  8. 排除题
-  9. 6 选 3 or 7 选 5
+  4. Rhetorical Purpose questions 修辞目的题
+  5. Vocabulary questions 词汇题
+    - 同义词替换
+    - 逻辑词
+  6. Reference questions 指代题
+  7. Sentence Simplification questions 句子简化题
+  8. Insert Text question 句子插入题
+  9. Prose Summary 文章总结题（6 选 3 or 7 选 5）
+  10. Fill in a Table 表格填写题
 
 ### Listening (约 41 - 57 mins)
 
