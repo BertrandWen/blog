@@ -15,7 +15,7 @@
   - 分类
   - 比较/对比
   - 原因/结果
-  - 问题/解决方法
+  - 问题/解决方法（可能答案）
 - 文章场景
   - 自然科学
   - 生命科学
@@ -40,7 +40,7 @@
   7. Sentence Simplification questions 句子简化题
   8. Insert Text question 句子插入题
   9. Prose Summary 文章总结题（6 选 3 or 7 选 5）
-  10. Fill in a Table 表格填写题
+  10. Fill in a Table 表格填写题（无了）
 
 
 
