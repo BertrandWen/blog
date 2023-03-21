@@ -8,7 +8,7 @@
 ### Reading (约 54 - 72 mins)
 
 - 3-4 篇文章
-  - 说明型（exposition)
+  - 说明型（exposition）
   - 立论型 (argumentation)
   - 历史题材型 (historical)
 - 文章结构
