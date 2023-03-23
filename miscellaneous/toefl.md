@@ -51,6 +51,11 @@
 - section 2: 1 conversation + 2 lecture
 - 每个 conversation/lecture 为 3 ~ 6 mins
 - 每个 conversation 有 5 个题目，lecture 有 6 个题目
+- 三类题型
+  - Basic Comprehension 基本理解题
+  - Pragmatic Understanding 情景考察题
+  - 
+
 
 ### Speaking (约 17 mins)
 
