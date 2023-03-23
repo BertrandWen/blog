@@ -43,18 +43,24 @@
   10. Fill in a Table 表格填写题（无了）
 
 
-
-
 ### Listening (约 41 ~ 57 mins)
 
 - section 1: 1 conversation + 1 lecture
 - section 2: 1 conversation + 2 lecture
-- 每个 conversation/lecture 为 3 ~ 6 mins
+- 每个 conversation/lecture 为 4 ~ 5 mins
 - 每个 conversation 有 5 个题目，lecture 有 6 个题目
 - 三类题型
   - Basic Comprehension 基本理解题
+    - Gist-content 内容主旨题
+    - Gist-purpose 目的主旨题
+    - Detail 细节题
   - Pragmatic Understanding 情景考察题
-  - 
+    - Understanding the Function of What is Said 句子功能题
+    - Understanding the Speaker's Attitude 说话人态度题
+  - Connecting Information Questions 整合信息题
+    - Understanding Organization Questions 组织结构题
+    - Connecting Content Questions 连接内容题
+    - Making Inferences Questions 推论题
 
 
 ### Speaking (约 17 mins)
