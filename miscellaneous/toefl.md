@@ -17,10 +17,10 @@
   - 原因/结果
   - 问题/解决方法（可能答案）
 - 文章场景
-  - 自然科学
-  - 生命科学
-  - 社会科学
-  - 文化艺术
+  - Physical Science 自然科学
+  - Life Science 生命科学
+  - Social Science 社会科学
+  - Art 文化艺术
 - 每篇文章 10 个问题，用时约 18 mins
   1. Factual Information questions 事实信息题（细节题）
   2. Negative Factual Information questions 否定事实信息题（排除题）：NOT/EXCEPT
