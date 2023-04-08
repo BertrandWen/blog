@@ -3,7 +3,8 @@ Where will your journey take you, Traveler?
 - [2018-05-07 上海](traveler/shanghai.md)
 - 2018-05-09 南京
 - 2018-05-11 杭州
-- 2018-05-20 顺德 
+- 2018-05-20 顺德
+- 2018-10-04 东莞
 - [2019-01-15 潮州](traveler/chaozhou.md)
 - [2019-03-12 香港](traveler/hongkong.md)
 - [2019-10-19 长沙](traveler/changsha.md)
