@@ -2,6 +2,7 @@
 - [技术笔记](technology/)
 - [阅读笔记](reading/)
 - [美食笔记](food/)
+- [旅行笔记](traveler/)
 - [生活杂谈](bytalk/)
 - [水深两浔](marktwain/)
 - [Misc.](miscellaneous/)
