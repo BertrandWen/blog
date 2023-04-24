@@ -174,3 +174,7 @@
 - instead B，留意 B
 - call 后面一般接术语
 - lecture 大概六个 paragraphs
+
+### 陈琦
+
+- 
