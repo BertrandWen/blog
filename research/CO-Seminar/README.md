@@ -1,4 +1,4 @@
-# CO Serminar Term 0
+# CO Seminar Term 0
 
 I always feel so lucky to work with these very talented guys.
 
