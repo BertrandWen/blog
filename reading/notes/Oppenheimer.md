@@ -32,6 +32,6 @@
 > we were all going direct to Heaven, we were all going direct the other way.  
 > （人们正在直登天堂，人们正在直下地狱。）  
 >  
-> "A Tale of Two Cities" by Charles Dickens
+> "A Tale of Two Cities" by Charles Dickens  
 > 《双城记》——狄更斯
 
