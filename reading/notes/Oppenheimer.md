@@ -17,20 +17,20 @@
 
 于我个人而言，与电影共鸣最深之处在于「人类真的准备好承受这股力量了吗」这一疑惑，在这个问题上我一直持着略带悲观的想法。我翻了一下，在今年二月份的时候我正读茨威格《昨日的世界》之时曾经在日记里写下了这样一段话：「自第一次工业革命以来科技与经济的发展全世界都有目共睹，不过人文修养与关怀的发展似乎并不那么迅速。人类是不是还没做好足够的准备去驾驭这些力量呢？我们提前打开了潘多拉的盒子了吗？」。如今又正值巴以冲突，我们也已经经历了数年激烈的中美对抗与摩擦，曾在二战后被寄予厚望所成立的联合国如今俨然已成为一个玩偶会议和政治花瓶。过往的理想主义者相信，随着科技进步必然带来人类道德的迅速提高，然而事实证明我们的文明与文化更像佛洛依德所描述一样是一张薄薄的白纸，随时都会被邪恶所突破。茨威格在《昨日的世界》中写下：“昨天所不能做的事，如今几乎每天都可以做到。在我们的时代之前，人类作为一个整体，即没有露出魔鬼般的嘴脸，也没有创造出惊人的奇迹”，这段话放在如今似乎更加的应景，人类的联系因为信息技术的发展显得空前的紧密，而各种矛盾和冲突也显得空前的突出。在二战之后，人类造出了原子弹，造出了氢弹，造出了计算机，造出了 ChatGPT，造出了反物质。我们正在一股脑地踩着油门向远处的光亮冲去，而前面的光芒到底是星辰大海的星光璀璨，还是人类自我毁灭的战争火光，我们都不得而知，只能如莎翁所说：“我们命该遇到这样的时代”。
 
-> It was the best of times, it was the worst of times,
-> （这是最好的时代，这是最坏的时代；）
-> it was the age of wisdom, it was the age of foolishness,
-> （这是智慧的时代，这是愚蠢的时代；）
-> it was the epoch of belief, it was the epoch of incredulity,
-> （这是信仰的时期，这是怀疑的时期；）
-> it was the season of Light, it was the season of Darkness,
-> （这是光明的季节，这是黑暗的季节；）
-> it was the spring of hope, it was the winter of despair,
-> （这是希望之春，这是失望之冬；）
-> we had everything before us, we had nothing before us,
-> （人们面前有着各样事物，人们面前一无所有；）
-> we were all going direct to Heaven, we were all going direct the other way.
-> （人们正在直登天堂，人们正在直下地狱。）
->
+> It was the best of times, it was the worst of times,  
+> （这是最好的时代，这是最坏的时代；）  
+> it was the age of wisdom, it was the age of foolishness,  
+> （这是智慧的时代，这是愚蠢的时代；）  
+> it was the epoch of belief, it was the epoch of incredulity,  
+> （这是信仰的时期，这是怀疑的时期；）  
+> it was the season of Light, it was the season of Darkness,  
+> （这是光明的季节，这是黑暗的季节；）  
+> it was the spring of hope, it was the winter of despair,  
+> （这是希望之春，这是失望之冬；）  
+> we had everything before us, we had nothing before us,  
+> （人们面前有着各样事物，人们面前一无所有；）  
+> we were all going direct to Heaven, we were all going direct the other way.  
+> （人们正在直登天堂，人们正在直下地狱。）  
+>  
 > "A Tale of Two Cities" by Charles Dickens
 
