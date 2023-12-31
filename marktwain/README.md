@@ -1,4 +1,4 @@
-Explore. Dream. Discover.
+记录生活中的迷思。
 
-- [优剪理发师](marktwain/ucut.md)
-- [滴滴司机](marktwain/didi.md)
+- [2022-08-26 输少当赢](marktwain/2022-08-26.md)
+- [2022-04-01 置身事内](marktwain/2022-04-01.md)

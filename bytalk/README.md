@@ -1,4 +1,4 @@
-记录生活中的迷思。
+Explore. Dream. Discover.
 
-- [2022-08-26 输少当赢](bytalk/2022-08-26.md)
-- [2022-04-01 置身事内](bytalk/2022-04-01.md)
+- [优剪理发师](bytalk/ucut.md)
+- [滴滴司机](bytalk/didi.md)
