@@ -1,6 +1,7 @@
 知识的边缘。
 
-- [CO-Seminar Meeting](research/CO-Seminar/README.md)
 <!-- - [Archive](research/mpc/README.md) -->
-- [Boolean satisfiability problem (SAT): 布尔可满足问题](research/SAT-note.md.md)
+- [Hypergraph Learning](research/hypergraph.md)
+- [Boolean satisfiability problem (SAT): 布尔可满足问题](research/sat.md)
+<!-- - [CO-Seminar Meeting](research/CO-Seminar/README.md) -->
 <!-- - [Oblivious Inference: 不经意推断](research/oblivious-inference.md) -->
