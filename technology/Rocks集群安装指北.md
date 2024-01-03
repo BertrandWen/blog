@@ -2,7 +2,7 @@
 
 > 2021-06-10
 
-![no record, no happend](../img/record-happend.jpeg)
+![no record, no happend](../img/rocks/record-happend.jpeg)
 
 最近组里的集群挂了两块硬盘后，系统就彻底挂掉起不来了。集群供应商派来的工程师在换好硬盘后，表示之前免费安装的 Rocks 系统在这几年已不再提供安装。
 对于集群管理系统，他们现在只提供 [BCM (Bright Cluster Manager)](https://www.brightcomputing.com/brightclustermanager) 一种方案。
@@ -22,7 +22,7 @@
 在 Rocks 集群中，节点被分为前端节点（也叫管理节点，Frontend Node）和计算节点（Compute Node）。
 二者通过交换机连接，其中前端节点必须有两张网卡，一张网卡（默认为 eth1）连接公网，另一个网卡（默认为 eth0）连接交换机，节点之间的拓扑如图所示：
 
-![Rocks Topology](../img/rocks-topo.png)
+![Rocks Topology](../img/rocks/rocks-topo.png)
 
 #### 1.2 制作启动盘
 
@@ -33,7 +33,7 @@
 Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系统组件/包) 下载到可被前端节点访问到的地方，在安装过程中管理节点会自动去请求这些资源。
 此处我们选择将官网的[下载区](http://www.rocksclusters.org/downloads/2017-12-01-download-rocks-7-0-manzanita.html)下全部的 16 个镜像下载下来后，先进行 md5 检查确保文件完整，随后进行解压，再搭建一个 http 服务器对外提供访问服务（据说更推荐 Nginx），下图为搭建好的 roll server。
 
-![roll server](../img/roll-server.png)
+![roll server](../img/rocks/roll-server.png)
 
 #### 1.4 Raid 阵列卡配置（可选）
 
@@ -45,19 +45,19 @@ Rocks 7 支持网络安装，即提前把所有系统所需的 Roll(类似于系
 
 1. 把 U 盘插到前端节点上，开机，设置 Boot 启动项中首先从 U 盘启动，退出重启，启动后得到如下画面：
 
-![rocks boot](../img/rocks-boot.webp)
+![rocks boot](../img/rocks/rocks-boot.webp)
 
 2. 进入语言选择界面，选择 English > English(United States) 并继续：
 
-![rocks language](../img/rocks-language.webp)
+![rocks language](../img/rocks/rocks-language.webp)
 
 3. 配置网络，选择 NETWORK & HOSTNAME
 
-![rocks network](../img/rocks-network.webp)
+![rocks network](../img/rocks/rocks-network.webp)
 
 选择 eth1 网卡，再选择 IPv4 Settings > Method，按照指南此处应该选择 Manual 并手动添加 Address、Netmask、Gateway。同时按照参考资料，此处的域名不能瞎写，需要按照标准的 Fully Qualified Domain Name 进行配置命名，否则后续会产生错误：
 
-![rocks network setting](../img/rocks-network-setting.webp)
+![rocks network setting](../img/rocks/rocks-network-setting.webp)
 
 我们服务器的网络设置为：
 ```
@@ -69,21 +69,21 @@ DNS 172.18.1.92
 
 4. 配置内网 ip：
 
-![rocks private network](../img/rocks-private-network.webp)
+![rocks private network](../img/rocks/rocks-private-network.webp)
    
-![rocks private network setting](../img/rocks-private-network-setting.webp)
+![rocks private network setting](../img/rocks/rocks-private-network-setting.webp)
 
 5. 进行 rolls 的安装，选择所有的 roll 都进行安装：
 
-![rocks rolls](../img/rocks-rolls.webp)
+![rocks rolls](../img/rocks/rocks-rolls.webp)
 
-![rocks rolls setting](../img/rocks-rolls-setting.webp)
+![rocks rolls setting](../img/rocks/rocks-rolls-setting.webp)
 
 6. 配置集群（无特殊需求不作改动）：
 
-![rocks cluster](../img/rocks-cluster.webp)
+![rocks cluster](../img/rocks/rocks-cluster.webp)
 
-![rocks cluster setting](../img/rocks-cluster-setting.webp)
+![rocks cluster setting](../img/rocks/rocks-cluster-setting.webp)
 
 7. 配置分区，可选择自动分区也可自动分区，手动分区的话方案可以为：
 
@@ -96,19 +96,19 @@ swap    50GiB
 /export    全部其他空间
 ```
 
-![rocks partitionning](../img/rocks-partitioning.png)
+![rocks partitionning](../img/rocks/rocks-partitioning.png)
 
 8. 开始安装：
 
-![rocks installation](../img/rocks-installation.webp)
+![rocks installation](../img/rocks/rocks-installation.webp)
 
 9. 在安装过程中可设置 root 密码：
 
-![rocks root](../img/rocks-root.png)
+![rocks root](../img/rocks/rocks-root.png)
 
 10. 安装完成，如果一切顺利，最后的安装界面应该如下图所示，此时可以拔出 U 盘，重启前端节点：
 
-![rocks finish](../img/rocks-finish.png)
+![rocks finish](../img/rocks/rocks-finish.png)
 
 
 ### 3. 计算节点安装
@@ -136,21 +136,21 @@ rocks create distro
 
 会出现如下界面：
 
-![insert-ethers](../img/insert-ethers-1.png)
+![insert-ethers](../img/rocks/insert-ethers-1.png)
 
 3. 选择 Compute，接下来可以看到以下界面，代表正在等待安装计算节点：
 
-![insert ethers 2](../img/insert-ethers-2.png)
+![insert ethers 2](../img/rocks/insert-ethers-2.png)
 
 4. 启动计算节点，并设置它的 booting 顺序为 PXE 优先，即网卡启动。
 
 5. 顺利的话，前端节点这边的界面会收到 DHCP 请求并显示：
 
-![insert ethers 3](../img/insert-ethers-3.png)
+![insert ethers 3](../img/rocks/insert-ethers-3.png)
 
 过一会可以看到计算节点被发现，「（）」代表节点尚未请求好 kickstart 文件：
 
-![insert ethers 4](../img/insert-ethers-4.png)
+![insert ethers 4](../img/rocks/insert-ethers-4.png)
 
 ## bug 记录
 

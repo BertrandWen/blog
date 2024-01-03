@@ -1,6 +1,6 @@
 # Boolean satisfiability problem (SAT)
 
-## 基本背景
+## Background
 
 布尔可满足性问题 (Boolean satisfiability problem, aka SAT) 是第一个被证明是 NP 完全的问题。
 其定义为，对于一个由若干布尔变量构成的表达式 (formula)，问是否存在一组变量取值使得表达式为 True（也即 satisfiable）。
