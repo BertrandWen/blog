@@ -16,3 +16,4 @@ Hypergraph is a generalization of a graph in which an edge can join any number o
 ## Dataset
 
 - [Temporal higher-order networks](https://www.cs.cornell.edu/~arb/data/)
+- [Foursquare](https://networks.skewed.de/net/foursquare)
