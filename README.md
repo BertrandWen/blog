@@ -1,4 +1,4 @@
-## Russell's advices
+## “The Big Bang Theory” S8E10 Vanity Card-472
 
 <!-- > **Interviewer:**  
 > Suppose Lord Russell that this film were to be looked at by our descendants, like a dead sea scroll in a thousand years time. What would you think it’s worth telling that generation about the life you’ve lived and the lessons you’ve learned from it?  
